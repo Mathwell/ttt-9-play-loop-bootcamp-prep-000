@@ -36,6 +36,8 @@ def turn(board)
 end
 
 def play(board)
+  puts "Welcome to Tic Tac Toe!"
+  display_board(board)
   10.times do
     turn(board)
   end
